@@ -2,10 +2,11 @@ import 'angular-ui-router';
 import * as angular from 'angular';
 import { ILocationProvider } from 'angular';
 import { IStateProvider, IUrlRouterProvider } from 'angular-ui-router';
+import { coreModule } from 'core';
 
 const homeStateName = 'fragment';
 export const appStatesModules = angular
-    .module('app', ['ui.router'])
+    .module('app', ['ui.router', coreModule])
     .config(($stateProvider: IStateProvider, $urlRouterProvider: IUrlRouterProvider, $locationProvider: ILocationProvider) => {
         $locationProvider.html5Mode({
             enabled: true,
