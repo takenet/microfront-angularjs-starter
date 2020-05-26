@@ -25,7 +25,7 @@ modules: [
 
 ## TODOS
 
-- [] Create unity test to check if Iframe Message Proxy has been initialized correctly;
-- [] Create folders to organize configuration files (webpacks, plugins files and etc);
-- [] Config prettier;
-- [] Deploy to yeoman to create easier applications or create some `blip-cli` like `create-react-app` to initialize this project easily.
+- [ ] Create unity test to check if Iframe Message Proxy has been initialized correctly;
+- [ ] Create folders to organize configuration files (webpacks, plugins files and etc);
+- [ ] Config prettier;
+- [ ] Deploy to yeoman to create easier applications or create some `blip-cli` like `create-react-app` to initialize this project easily.
