@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/takenet/microfront-angularjs-starter#readme",
   "dependencies": {
-    "angular": "1.5.8",
+    "angular": "1.8.0",
     "angular-translate": "2.15.1",
     "angular-translate-storage-cookie": "^2.18.2",
     "angular-ui-router": "^0.2.15",
